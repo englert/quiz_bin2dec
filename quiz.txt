@@ -1,0 +1,10 @@
+1.  Mi a 000011 bináris szám decimális értéke?  # ff05558c
+2
+2.  Mi az 0000111 bináris szám decimális értéke?  # 3fed0149
+7
+3.  Mi a 100101 bináris szám decimális értéke?  # 1808331b
+37
+4.  Mi a 100111 bináris szám decimális értéke?  # a6d13961
+39
+5.  Mi a 0001011 bináris szám decimális értéke?  # be606b98
+0

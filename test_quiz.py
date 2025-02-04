@@ -38,7 +38,7 @@ def validate_question(question, expected_answer, expected_checksum):
         except ValueError as e:
             return False, f"Érvénytelen bináris szám a kérdésben: {question}. Hibaüzenet: {e}"
         is_correct = calculated_answer == expected_answer
-        return is_correct, f"Kérdés: {question}, Válasz: {calculated_answer}, Elvárt válasz: {expected_answer}"
+        return is_correct, f"Kérdés: {question}"
     else:
         return False, f"Ismeretlen kérdés formátum: {question}"
 

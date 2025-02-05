@@ -27,7 +27,7 @@ def validate_question(question, expected_answer, expected_checksum):
     """Ellenőrzi egyetlen kvízkérdést és választ."""
     calculated_checksum = calculate_checksum(question.strip())
     if expected_checksum and calculated_checksum != expected_checksum:
-       return False, f"A kérdés checksumja érvénytelen: {question}. Elvárt checksum: {expected_checksum}, Kiszámított checksum: {calculated_checksum}"
+       return False, f"A kérdés checksumja érvénytelen: {question}."
     parts = question.split(' ')
     if "bináris szám decimális értéke" in question:
         try:
